@@ -7,3 +7,4 @@ dist
 archive.zip
 python/libs
 .serverless
+python/update

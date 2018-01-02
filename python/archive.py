@@ -20,8 +20,8 @@ def zip_dir(path, ziph):
 
 if __name__ == '__main__':
     print('Installing dependencies into libs directory...')
-    subprocess.call([PIP, 'install', '-r', 'requirements.txt', '-t', 'libs'],
-                    stdout=subprocess.PIPE)
+    # subprocess.call([PIP, 'install', '-r', 'requirements.txt', '-t', 'libs'],
+                    # stdout=subprocess.PIPE)
 
     print('Generating archive.zip...')
     with zipfile.ZipFile('archive.zip', 'w', zipfile.ZIP_DEFLATED) as zipf:
